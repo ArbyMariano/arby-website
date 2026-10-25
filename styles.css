@@ -1,0 +1,39 @@
+body {
+  background: #f3f4f6;
+  padding: 40px;
+  font-family: system-ui, sans-serif;
+}
+
+/* Style the card, avatar, text, and button! */
+.profile-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border: 0.5px solid white;
+  padding: 5px;
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.name {
+}
+
+.bio {
+  font-style: italic;
+  text-align: center;
+  margin: 16px 0 8px;
+}
+
+.follow-btn {
+  background-color: #83eec5;
+  cursor: pointer;
+  transition: background-color 1s;
+  border-radius: 5px;
+  border: 0.5px solid #184a4a;
+}
+
+button:hover {
+  background-color: #62d5b4;
+}
